@@ -1,0 +1,18 @@
+.alertSnackbar {
+    .MuiPaper-root {
+        .MuiAlert-icon {
+            padding: 0px !important;
+            background-color: #FFFFFF !important;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+
+            .mgc_check_line::before {
+                color: #28A745 !important;
+            }
+        }
+    }
+}
